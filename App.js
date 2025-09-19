@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import CounterApp from './CounterApp'
-import ColorChanger from './ColorChanger'
+import ChatScreen from './ChatScreen'
+import CommentSection from './CommentSection'
 export default function App() {
   return (
     <View style={styles.container}>
-<CounterApp/>
-<ColorChanger/>
+<ChatScreen/>
+<CommentSection/>
       <StatusBar style="auto" />
     </View>
   );
